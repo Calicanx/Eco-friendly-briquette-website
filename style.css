@@ -1,0 +1,91 @@
+html{
+	margin:0px;
+	font-size:40px;
+}
+body{
+	margin:0px;
+}
+span{
+	color:white;
+	font-size:15px;
+}
+a:link{
+	text-decoration:white;
+}
+img{
+	height:400px;
+	width:50%;
+}
+p{
+	font-size:12px;
+}
+
+.content{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	
+}
+
+.header{
+	background-color:black;
+	position:relative;
+	margin-top:-16px;
+	height:100px;  
+	width:100%;
+}
+.footer{
+	background-color:black;
+	height:100px;  
+	margin-bottom:0px;
+	width:100%;
+	margin-top:20px;
+	position:absolute;
+	#bottom:-1950px;
+}
+
+.fa{
+	padding:20px;
+	font-size:30px;
+	width:30px;
+	text-align:center;
+	text-decoration:none;
+	border-radius:50%;
+}
+.test{
+	height:200px;
+	width:200px;
+	display:flex;
+	margin-top:50px;
+	margin-left:75px;
+	border-radius:50%;
+}
+#bio{
+	position:relative;
+	left:50px;
+}
+#carbon{
+	position:relative;
+	left:160px;
+}
+#trees{
+	position:relative;
+	left:250px;
+}
+#waste{
+	position:relative;
+	left:310px;
+}
+#ash{
+	position:relative;
+	left:380px;
+}
+#heat{
+	position:relative;
+	left:180px;
+	bottom:240px;
+}
+#storage{
+	position:relative;
+	right:30px;
+}
